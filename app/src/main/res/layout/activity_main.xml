@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="Score: 0"
+        android:textSize="30dp"
+        tools:ignore="UnknownId" />
+
+
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="142dp"
+    android:layout_marginTop="123dp"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/dice_3"
+    tools:layout_editor_absoluteX="81dp"
+    tools:layout_editor_absoluteY="78dp" />
+
+
+<Button
+    android:id="@+id/rollDices"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/textView"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="-24dp"
+    android:layout_marginBottom="93dp"
+    android:text="Roll Dices"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="141dp"
+    android:layout_marginRight="141dp"
+    android:layout_marginBottom="7dp"
+    android:text="©Hasan Naseer"
+    android:textColor="@color/colorAccent" />
+</RelativeLayout>
